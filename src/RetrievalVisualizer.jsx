@@ -82,7 +82,7 @@ const steps = [
           <div className="text-gray-700 font-semibold mb-2">Login Form</div>
           <div className="grid gap-2">
             <div className="bg-white/90 rounded-xl p-2 border text-gray-600">
-              username: <span className="font-mono">saima</span>
+              username: <span className="font-mono">prabhas</span>
             </div>
             <div className="bg-white/90 rounded-xl p-2 border text-gray-600">
               password: ••••••••
@@ -117,13 +117,13 @@ const steps = [
             Auth Check (MySQL)
           </div>
           <div className="font-mono text-xs bg-white/80 p-3 rounded-xl">
-            SELECT id, username, hashed_password FROM users WHERE username = 'saima';
+            user = authenticate(request, username=prabhas, password=hashed_password)
             <br />
-            // verify hash → issue session / JWT
+            // verify hash → issue session 
           </div>
         </motion.div>
         <p className="text-gray-600">
-          Django verifies credentials against MySQL and issues a session/JWT.
+          Django verifies credentials against MySQL and issues a session.
         </p>
       </div>
     ),
