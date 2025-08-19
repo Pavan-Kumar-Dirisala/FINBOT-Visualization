@@ -170,8 +170,8 @@ const steps = [
           <div className="bg-white/80 p-3 rounded-xl font-mono text-sm">
             {`{
   id: 42,
-  name: "Saima",
-  loan_emi: 8540,
+  name: "prabhas",
+  loan_emi: 10000,
   due_date: "2025-08-28",
   grace_days: 3,
   ecs_bounce_fee: 350
